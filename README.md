@@ -60,8 +60,7 @@ Task 3
    Events- Event_Id, Event_Name, Event_Date, Event_Location, Event_Description
    Attendees- Attendee_Id, Attendee_Name, Attendee_Phone, Attendee_Email, Attendee_City
    Registrations-Registration_id, Event_Id, Attendee_Id,Registration_Date,Registration_Amount.
-   
-    The FOREIGN KEY constraint in the Registrations table references the Event_Id column in the Events table and the Attendee_Id column in the Attendees table.
+   The FOREIGN KEY constraint in the Registrations table references the Event_Id column in the Events table and the Attendee_Id column in the Attendees table.
 2.Data Creation
    Inserted some sample data for Events, Attendees, and Registrations tables with respective fields.
 3. Manage Event Details
