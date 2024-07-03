@@ -1,0 +1,4 @@
+SELECT stu_name, GPA
+FROM student_info
+ORDER BY GPA DESC
+LIMIT 1;
